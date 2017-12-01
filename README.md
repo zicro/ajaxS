@@ -5,6 +5,12 @@
 
 - [x] ajaxSubmit :
 
+``` 
+Avalaible in two Version, the Full One that include all the parameteres
+used by the ajax Technologie, and the LiteVersion that have just the essentiel
+Ones for running the Code..
+ ```
+ 
 | instructions  | FullVersion   | LiteVersion   |
 | ------------- |:-------------:| -------------:|
 | beforeSend    | `YES`         | *NO*  		|
