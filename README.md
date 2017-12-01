@@ -1,11 +1,3 @@
-[![Build Status](https://php.net)](https://php.net)
-[![Coverage Status](https://php.net)](https://php.net)
-[![Scrutinizer Code Quality](https://php.net)](https://php.net)
-[![Dependency Status](https://php.net)](https://php.net)
-
-[![Latest Stable Version](https://php.net)](https://php.net)
-[![License](https://php.net)](https://php.net)
-
 # ajaxS
 ---
 > Examples of using ajax including : 
