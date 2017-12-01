@@ -1,10 +1,10 @@
-[![Build Status](https://travis-ci.org/mvdbos/php-spider.png?branch=master)](https://travis-ci.org/mvdbos/php-spider)
-[![Coverage Status](https://coveralls.io/repos/mvdbos/php-spider/badge.svg?branch=master&service=github)](https://coveralls.io/github/mvdbos/php-spider?branch=master)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/mvdbos/php-spider/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/mvdbos/php-spider/?branch=master)
-[![Dependency Status](https://www.versioneye.com/php/vdb:php-spider/dev-master/badge)](https://www.versioneye.com/php/vdb:php-spider/dev-master)
+[![Build Status]()
+[![Coverage Status]()
+[![Scrutinizer Code Quality]()
+[![Dependency Status]()
 
-[![Latest Stable Version](https://poser.pugx.org/vdb/php-spider/v/stable)](https://packagist.org/packages/vdb/php-spider)
-[![License](https://poser.pugx.org/vdb/php-spider/license)](https://packagist.org/packages/vdb/php-spider)
+[![Latest Stable Version]()
+[![License]()
 
 # ajaxS
 ---
