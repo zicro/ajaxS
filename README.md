@@ -7,13 +7,13 @@
 
 | instructions  | FullVersion   | LiteVersion   |
 | ------------- |:-------------:| -------------:|
-| beforeSend    | - [x]         | - [ ] 		|
-| statusCode    | - [x]         | - [ ] 		|
-| complete 		| - [x]      	| - [ ] 		|
-| url			| - [x]         | - [x]			|
-| type			| - [x]  		| - [x]			|
-| data			| - [x]  		| - [x]			|
-| success		| - [x]  		| - [x]			|
+| beforeSend    | `YES`         | *NO*  		|
+| statusCode    | `YES`         | *NO*  		|
+| complete 		| `YES`      	| *NO*  		|
+| url			| `YES`         | `YES`			|
+| type			| `YES`  		| `YES`			|
+| data			| `YES`  		| `YES`			|
+| success		| `YES`  		| `YES`			|
 
 - [x] getPost :
 
