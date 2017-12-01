@@ -2,13 +2,15 @@
 ---
 > Examples of using ajax including : 
 ---
-```
- load Folder : 
+
+ - [x] load : 
  ```
  it Load data from (test.html) file, When click the URL (Click Me !!)
+```
 
- ```
- getPost :
+- [x] getPost :
+
 ``` 
 Send data from PHP page (index.php) to another PHP page (check.php) and receiving the Response data, 
 with Post Method using Ajax (without Re-load page)
+ ```
