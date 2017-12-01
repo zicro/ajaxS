@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>JQuery</title>
-<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="../jquery.js"></script>
 <script type="text/javascript">
 $(document).ready(function (){
 	
@@ -10,7 +10,7 @@ $(document).ready(function (){
 		$(".load").load("test.html");
 		});
 		//$('a').hide();
-		return false; // use it to not reLoad the php (refresh the navigator
+		return false; // use it to not reLoad the page (not refresh the navigator)
 		
 	});
 </script>

@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>JQuery Send Form Data Via Post Method</title>
-<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="../jquery.js"></script>
 <script type="text/javascript">
 $(document).ready(function (){
 	
