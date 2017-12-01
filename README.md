@@ -6,9 +6,9 @@
 - [x] ajaxSubmit :
 
 ``` 
-Avalaible in two Version, the Full One that include all the parameteres
+Avalaible in two Versions, the Full One that include all the parameteres
 used by the ajax Technologie, and the LiteVersion that have just the essentiel
-Ones for running the Code..
+Ones as Shown on the Table Below..
  ```
  
 | instructions  | FullVersion   | LiteVersion   |
@@ -29,8 +29,13 @@ with Post Method using Ajax (without Re-load page)
  ```
 
  - [x] load : 
+ 
  ```
  it Load data from (test.html) file, When click the URL (Click Me !!)
 ```
 
+ - [x] loadingTabs : 
 
+ ```
+ Allows You to use a Multiple Tabs data (load multiple pages into one page in Tabs)
+```

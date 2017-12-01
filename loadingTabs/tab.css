@@ -1,0 +1,46 @@
+body{
+	direction: ltr;
+	font-size: 13px;
+	color: #111;
+	font-family: Tahoma, sans-serif;
+}
+a{text-decoration: none;}
+.clear {clear: both;}
+.myTab {border-bottom: 1px solid #ededed;}
+.myTab ul {list-style: none; padding: 0; margin: 0;}
+.myTab ul li {float: left;}
+.myTab ul li a {
+	display: block;
+	padding: 5px 10px;
+	color: #888;
+	border-bottom: 0;
+	border-right: 1px solid #FFF;
+	border-left: 1px solid #FFF;
+	border-top: 1px solid #FFF;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	margin-left: 2px;
+}
+.myTab ul li a:hover {
+	border-bottom: 0;
+	border-right: 1px solid #ededed;
+	border-left: 1px solid #ededed;
+	border-top: 1px solid #ededed;
+	background-color: #FBFBFB;
+	color: #111;
+}
+.myTab ul li.active a {
+	border-bottom: 1px solid #FFF;
+	border-right: 1px solid #ededed;
+	border-left: 1px solid #ededed;
+	border-top: 1px solid #ededed;
+	margin-bottom: -1px;
+}
+.myTabContent{
+	padding: 5px;
+	text-align: justify;
+	border-bottom: 1px solid #ededed;
+	border-right: 1px solid #ededed;
+	border-left: 1px solid #ededed;
+	border-top: 0px;
+}

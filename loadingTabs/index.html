@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JQuery</title>
+<link rel="stylesheet" href="tab.css" type="text/css" />
+<script type="text/javascript" src="../jquery.js"></script>
+<script type="text/javascript">
+function loadTabs(getFile){
+	$.ajax({
+		url: getFile,
+		beforeSend: function (){
+			$(".myTabContent").html("<img src=\"loading.gif\" alt=\"loading Files ...\" />");
+		},
+		success: function (data){
+			$(".myTabContent").html(data);
+		}
+	});
+}
+
+$(document).ready(function (){
+
+	
+	loadTabs("tab1.html");
+	
+	$(".myTab ul > li").click(function (){
+			var i = $(".myTab ul > li").index(this);
+			
+			if (i == 0)
+				loadTabs("tab1.html");
+			else if (i == 1)
+				loadTabs("tab2.html");
+			else if (i == 2)
+				loadTabs("tab3.html");
+				
+			$(".myTab ul > li").removeAttr("class");
+			$(this).addClass("active");
+		return false; // use it to not reLoad the page (not refresh the navigator)
+		});
+	});
+</script>
+</head>
+<body>
+
+
+	<div class="myTab">
+		<ul>
+			<li class="active"><a href="#">Tab 1</a></li>
+			<li><a href="#">Tab 2</a></li>
+			<li><a href="#">Tab 3</a></li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+
+<div class="myTabContent"></div>
+</body>
+</html>
