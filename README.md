@@ -5,7 +5,7 @@
 
  - [x] load : 
  ```
- it Load data from (test.html) file, When click the URL ([Click Me !!] (#) )
+ it Load data from (test.html) file, When click the URL (Click Me !!)
 ```
 
 - [x] getPost :
